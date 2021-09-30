@@ -5,11 +5,11 @@ const SingleMeal = (props) => {
     const { strMeal, strCategory, strArea, strInstructions, strMealThumb } = props.meal
     return (
 
-        <Card className="text-center ">
+        <Card>
             <Card.Header><h1>{strMeal}</h1>
             </Card.Header>
             <Row className="align-items-center justify-content-center">
-                <Col>
+                <Col className="text-center">
                     <Card.Img className="img-fluid p-5 " variant="top" src={strMealThumb} />
                     {/* <Card.Title>Meal Name : {strMeal}</Card.Title> */}
                     <p>Category : {strCategory}</p>
