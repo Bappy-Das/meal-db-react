@@ -6,7 +6,7 @@ const Meals = (props) => {
     const { idMeal, strMeal, strInstructions, strMealThumb } = props.meals
     return (
         <div className="">
-            <Col>
+            <Col className="text-center">
                 <Card>
                     <Card.Img className="img-fluid p-2 " variant="top" src={strMealThumb} />
                     <Card.Body>
